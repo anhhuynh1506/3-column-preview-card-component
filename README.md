@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Source Solution](https://github.com/anhhuynh1506/3-column-preview-card-component.git)
+[Live site URL](https://your-live-site-url.com)
 
 ## My process
 
