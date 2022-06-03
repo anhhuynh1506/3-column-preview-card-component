@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.mainComponent {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 0px;
+    color: white;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.mainComponent .cardName {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+div p {
+    width: 75%;
+}
+
+.sedans {
+    padding: 50px 0px 50px 70px;
+    border-radius: 15px 15px 0 0;
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.suvs {
+    padding: 50px 0px 50px 70px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    padding: 50px 0px 50px 70px;
+    border-radius: 0 0 15px 15px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: background-color border color 200ms ease-in-out;
+}
+
+#btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+#btn1:hover,
+#btn1:focus {
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#btn2:hover,
+#btn2:focus {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#btn3:hover,
+#btn3:focus {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media (min-width: 1125px) {
+    .mainComponent {
+        flex-direction: row;
+        max-width: 1125px;
+    }
+
+    .sedans {
+        padding-left: 70px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .suvs {
+        padding-left: 70px;
+    }
+
+    .luxury {
+        padding-left: 70px;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .button {
+        margin-top: 80px;
+    }
+
+    div p {
+        width: 70%;
+    }
+
+}
