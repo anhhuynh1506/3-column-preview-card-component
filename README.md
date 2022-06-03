@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-For Mobile
+- For Mobile
 ![For Mobile](./mySolutionImage/mobile.png)
 
-For Desktop
+- For Desktop
 ![For Desktop](./mySolutionImage/desktop.png)
 
-Hover states
+- Hover states for interactive elements
 ![Hover states](./mySolutionImage/hover-states.gif)
 
 
